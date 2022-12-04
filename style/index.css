@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Nunito+Sans:wght@300;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 7rem;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 5rem;
+}
+
+.nav__head {
+  font-size: 3rem;
+}
+
+.back {
+  padding: 1.5rem 4.5rem;
+  margin-left: 5rem;
+  display: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-left: 8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.back:hover {
+  scale: 1.1;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+}
+
+.country {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 40px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  line-height: 3rem;
+  transition: all 0.3s;
+}
+
+.country:hover {
+  scale: 1.1;
+}
+
+.country img {
+  width: 300px;
+  height: 150px;
+  padding: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.button_bar {
+  margin-bottom: 8rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6rem;
+}
+
+.country__head {
+  padding: 0 30px;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+.country__people {
+  padding: 0 30px;
+}
+.country__region {
+  padding: 0 30px;
+}
+.country__capital {
+  padding: 0 30px;
+}
+
+.country-full {
+  display: flex;
+  gap: 10rem;
+  margin-top: 10rem;
+  padding-left: 14rem;
+}
+
+.country-full img {
+  width: 55rem;
+  border: 1px solid lightgrey;
+}
+
+.right-wrapper {
+  line-height: 3.5rem;
+}
+
+.country-full__head {
+  padding: 3rem 0;
+}
+
+.flex_wrapper {
+  gap: 12rem;
+  display: flex;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+#region {
+  padding: 1rem 2rem;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 1.8rem;
+}
+
+#finder {
+  padding: 2rem 2rem;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-left: 5rem;
+  font-size: 1.8rem;
+}
+
+.find_country {
+  position: relative;
+  align-items: center;
+  display: flex;
+}
+
+#finder::placeholder {
+  padding-left: 2rem;
+}
+
+.find_button {
+  width: 4rem;
+  height: 2rem;
+  position: absolute;
+  left: 0.5rem;
+  cursor: pointer;
+}
+
+.moon-icon {
+  width: 2rem;
+}
+
+.dark_mode {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.border_country {
+  padding: 1rem 1.5rem;
+  background-color: lightgray;
+}

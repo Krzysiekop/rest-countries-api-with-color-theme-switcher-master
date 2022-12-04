@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/index.css" />
+    <title>Countries</title>
+  </head>
+  <body>
+    <nav>
+      <h1 class="nav__head">Where in world</h1>
+      <div class="dark_mode"> <img class="moon-icon" src="icons/moon.svg"></img> &nbsp; <span class="dark_mode-text"> Dark mode </span></div>
+    </nav>
+    <div class="button_bar">
+      <button class="back"> Back</button>
+      <div class="find_country">
+        <input type="text" name="find" id="finder" placeholder="Search for a country..."/> 
+        <img src="icons/lupe.svg" class="find_button" ></img>
+      </div>
+      <select name="filter" id="region">
+        <option value="All">Filter by region</option>
+        <option value="All">Whole World</option>
+        <option value="Europe">Europe</option>
+        <option value="Americas">Americas</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+        <option value="Antarctic">Antarctic</option>
+        <option value="Oceania">Oceania</option>
+      </select>
+    </div>
+    <main>
+      <div class="countries"></div>
+    </main>
+  </body>
+  <script src="script/index.js"></script>
+</html>
+
